@@ -4,6 +4,8 @@
 
 這份投影片從 personal computing 往回看，說明 GUI、mouse、hypertext、interactive graphics 的發展不是單一公司發明，而是多個研究系統累積。
 
+課程敘事方向是從現代產品往回追溯；考歷史順序時則反過來，從 Bush / Sutherland / Engelbart 往 Xerox、Apple、Microsoft 看。
+
 ## Vannevar Bush
 
 Vannevar Bush 在 1945 年提出 `Memex` 的概念。

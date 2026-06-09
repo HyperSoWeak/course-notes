@@ -76,6 +76,8 @@ Tuning:
 Bush -> Engelbart / Sutherland -> Xerox PARC -> Apple -> Microsoft
 ```
 
+This is the historical influence order. The lecture often explains the same lineage backward from modern products.
+
 - Bush: Memex and hypertext-like trails
 - Engelbart: augmentation, mouse, hypertext, groupware
 - Sutherland: Sketchpad and interactive graphics

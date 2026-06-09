@@ -4,7 +4,7 @@
 
 Actuation 是把能量轉成 motion 或 force。課程從 small electric motors 到 heavy-duty hydraulics，再到 micro actuation。
 
-常見來源：
+常見 actuator types：
 
 - electric motor
 - solenoid
@@ -41,7 +41,7 @@ Brushed motor：
 
 Brushless motor：
 
-- permanent magnet rotate，coil stationary
+- permanent magnets 旋轉，coils 固定
 - 避免把電流接到 rotating armature
 - 需要 electronic commutation
 

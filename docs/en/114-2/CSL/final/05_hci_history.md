@@ -8,6 +8,8 @@ The course traces personal computing backward:
 Microsoft -> Apple -> Xerox PARC -> Engelbart / Sutherland -> Bush
 ```
 
+Historically, read the line in the opposite direction: Bush, Sutherland, and Engelbart influenced Xerox PARC, which influenced Apple and later Microsoft.
+
 The point is not only who invented what, but how research prototypes, commercial products, cost, and timing interact.
 
 ## Vannevar Bush

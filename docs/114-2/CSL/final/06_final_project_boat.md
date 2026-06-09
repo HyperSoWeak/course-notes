@@ -95,9 +95,9 @@ Autonomous navigation：
 - 繞圈：可用 distance threshold 判斷轉向
 - 迷宮：可用 wall-following
 
-## Wall-Following 策略
+## 補充策略：Wall-Following
 
-最簡單的 autonomous maze solving：
+這不是投影片指定演算法，而是一個可行的 autonomous maze solving strategy：
 
 ```text
 if front distance is too small:

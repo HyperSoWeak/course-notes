@@ -40,8 +40,7 @@ Brushed motor:
 
 Brushless motor:
 
-- Permanent magnets rotate.
-- Coils stay stationary.
+- Permanent magnets rotate while coils stay stationary.
 - Electronic commutation replaces brushes.
 
 ## Friction

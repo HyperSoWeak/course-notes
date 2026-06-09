@@ -76,6 +76,8 @@ Tuning：
 Bush -> Engelbart / Sutherland -> Xerox PARC -> Apple -> Microsoft
 ```
 
+這是歷史影響順序；課堂投影片則常用現代產品往回追溯的方式講。
+
 - Bush：Memex、hypertext-like trails
 - Engelbart：augmentation、mouse、hypertext、groupware
 - Sutherland：Sketchpad、interactive graphics

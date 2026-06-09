@@ -103,3 +103,7 @@ Exam sentence:
 ```text
 Kp reacts to current error, Kd damps fast changes, and Ki removes accumulated steady-state error but may cause windup.
 ```
+
+## Added Context
+
+NI's PID overview also describes PID as a common industrial closed-loop control algorithm. Feedback is sampled periodically, actuator output is updated from measured error, and performance is often discussed through rise time, overshoot, settling time, and steady-state error. Derivative action is sensitive to noise, while integral action reduces steady-state error but can increase overshoot.

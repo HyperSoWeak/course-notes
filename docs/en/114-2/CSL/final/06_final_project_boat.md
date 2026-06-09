@@ -94,9 +94,11 @@ Navigation:
 
 - straight track: maintain heading
 - circle track: turn using distance thresholds
-- maze: wall following is the simplest strategy
+- maze: wall following is one simple option
 
-## Wall-Following
+## Added Strategy: Wall-Following
+
+This is not a required algorithm from the slides. It is one practical strategy for autonomous maze solving:
 
 ```text
 if front distance is too small:
