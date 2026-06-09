@@ -1,6 +1,17 @@
 # Course Notes
 
-VitePress site for course notes.
+VitePress site for bilingual course notes.
+
+## Structure
+
+```text
+docs/                         # public zh-TW site
+docs/en/                      # public English site
+materials/                    # local raw materials, ignored by git
+docs/materials.manifest.example.yml
+```
+
+Raw course PDFs/PPTX/code from instructors should stay in `materials/` unless there is explicit permission to publish them.
 
 ## Commands
 
@@ -9,6 +20,15 @@ pnpm install
 pnpm docs:dev
 pnpm docs:build
 ```
+
+## Agent Workflow
+
+See:
+
+- `AGENTS.md`
+- `docs/agent-guide.md`
+- `docs/materials.md`
+- `docs/materials.manifest.example.yml`
 
 ## GitHub Pages
 

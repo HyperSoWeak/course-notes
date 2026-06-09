@@ -2,3 +2,8 @@ node_modules/
 docs/.vitepress/dist/
 docs/.vitepress/cache/
 .DS_Store
+
+# Raw course materials stay local because GitHub Pages is public.
+materials/**
+!materials/
+!materials/README.md

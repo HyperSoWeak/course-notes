@@ -1,0 +1,25 @@
+# Copy this file to a local manifest when adding materials.
+# Do not include private download URLs or copyrighted text in committed manifests.
+
+terms:
+  "114-2":
+    courses:
+      CSL:
+        title:
+          zh-TW: "計算機系統實驗"
+          en: "Computer Systems Lab"
+        units:
+          final:
+            local_materials_dir: "materials/114-2/CSL/final"
+            public_notes_dir:
+              zh-TW: "docs/114-2/CSL/final"
+              en: "docs/en/114-2/CSL/final"
+            generated_pages:
+              - "00_overview.md"
+              - "99_exam_quick_review.md"
+              - "01_control_pid.md"
+              - "02_structures_trusses_springs.md"
+              - "03_actuation_motors_transmission.md"
+              - "04_fabrication_cad_laser.md"
+              - "05_hci_history.md"
+              - "06_final_project_boat.md"
