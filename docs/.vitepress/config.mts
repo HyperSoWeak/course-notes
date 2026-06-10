@@ -6,6 +6,7 @@ export default defineConfig({
   lang: 'zh-TW',
   base: '/course-notes/',
   cleanUrls: true,
+  markdown: { math: true },
   locales: {
     root: {
       label: '繁體中文',
@@ -39,6 +40,20 @@ export default defineConfig({
                 { text: 'Fabrication / CAD / Laser', link: '/114-2/CSL/final/04_fabrication_cad_laser' },
                 { text: 'Early HCI', link: '/114-2/CSL/final/05_hci_history' },
                 { text: 'Final Project Boat', link: '/114-2/CSL/final/06_final_project_boat' }
+              ]
+            },
+            {
+              text: '離散數學',
+              collapsed: false,
+              items: [
+                { text: '課程首頁', link: '/114-2/DiscreteMath/' },
+                { text: '總覽 & 速查', link: '/114-2/DiscreteMath/final/00_overview' },
+                { text: '圖論', link: '/114-2/DiscreteMath/final/01_graph_theory' },
+                { text: '樹', link: '/114-2/DiscreteMath/final/02_trees' },
+                { text: '環', link: '/114-2/DiscreteMath/final/03_rings' },
+                { text: '群', link: '/114-2/DiscreteMath/final/04_groups' },
+                { text: '置換', link: '/114-2/DiscreteMath/final/05_permutations' },
+                { text: '軌道 & Burnside', link: '/114-2/DiscreteMath/final/06_orbits_burnside' }
               ]
             }
           ],
@@ -88,6 +103,20 @@ export default defineConfig({
                 { text: 'Fabrication / CAD / Laser', link: '/en/114-2/CSL/final/04_fabrication_cad_laser' },
                 { text: 'Early HCI', link: '/en/114-2/CSL/final/05_hci_history' },
                 { text: 'Final Project Boat', link: '/en/114-2/CSL/final/06_final_project_boat' }
+              ]
+            },
+            {
+              text: 'Discrete Mathematics',
+              collapsed: false,
+              items: [
+                { text: 'Course Home', link: '/en/114-2/DiscreteMath/' },
+                { text: 'Overview & Quick Ref', link: '/en/114-2/DiscreteMath/final/00_overview' },
+                { text: 'Graph Theory', link: '/en/114-2/DiscreteMath/final/01_graph_theory' },
+                { text: 'Trees', link: '/en/114-2/DiscreteMath/final/02_trees' },
+                { text: 'Rings', link: '/en/114-2/DiscreteMath/final/03_rings' },
+                { text: 'Groups', link: '/en/114-2/DiscreteMath/final/04_groups' },
+                { text: 'Permutations', link: '/en/114-2/DiscreteMath/final/05_permutations' },
+                { text: 'Orbits & Burnside', link: '/en/114-2/DiscreteMath/final/06_orbits_burnside' }
               ]
             }
           ],
