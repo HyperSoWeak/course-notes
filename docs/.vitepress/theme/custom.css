@@ -1,23 +1,26 @@
-/* Fix MathJax SVG sizing so math matches surrounding text size */
-mjx-container[jax="SVG"] > svg {
-  font-size: 100%;
+/* Keep assistive MML off-screen (screen readers only, must not show visually) */
+mjx-assistive-mml {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  clip-path: inset(50%) !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  white-space: nowrap !important;
 }
 
+/* Inline math: align with surrounding text */
+mjx-container[jax="SVG"]:not([display="true"]) {
+  display: inline-block;
+  vertical-align: -0.1ex;
+  margin: 0 0.05em;
+}
+
+/* Display math: centered block */
 mjx-container[jax="SVG"][display="true"] {
   display: block;
   text-align: center;
   margin: 1em 0;
-}
-
-/* Ensure inline math aligns vertically with text */
-mjx-container[jax="SVG"]:not([display="true"]) {
-  display: inline-block;
-  vertical-align: middle;
-  margin: 0 0.1em;
-}
-
-/* Remove extra spacing around inline math in table cells */
-td mjx-container[jax="SVG"]:not([display="true"]),
-th mjx-container[jax="SVG"]:not([display="true"]) {
-  vertical-align: -0.1ex;
 }
