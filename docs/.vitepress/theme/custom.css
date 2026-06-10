@@ -8,3 +8,16 @@ mjx-assistive-mml {
   overflow: hidden !important;
   white-space: nowrap !important;
 }
+
+/* Display (fenced) math: centered with breathing room */
+.math-display {
+  display: block;
+  text-align: center;
+  margin: 1.25em 0;
+  overflow-x: auto;
+}
+
+/* Inline math: small side padding so it doesn't crowd adjacent text */
+.math-inline {
+  padding: 0 0.08em;
+}
