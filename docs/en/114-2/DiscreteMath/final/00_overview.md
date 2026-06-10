@@ -19,7 +19,7 @@
 | Theorem | Statement |
 |---------|-----------|
 | **Tree** | Connected acyclic graph; $n$ nodes has exactly $n-1$ edges |
-| **Forest** | $\|V\| = \|E\| + \kappa$, where $\kappa$ = number of trees |
+| **Forest** | $\|V\| = \|E\| + \kappa$ ($\kappa$ = number of trees) |
 | **Path Length** | $f(T) = f(T_L) + f(T_R) + n - 1$ |
 
 ### Rings

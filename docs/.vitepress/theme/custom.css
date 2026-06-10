@@ -1,8 +1,6 @@
-/* Keep assistive MML off-screen (screen readers only, must not show visually) */
+/* Hide assistive MML (screen-reader only) */
 mjx-assistive-mml {
   position: absolute !important;
-  top: 0;
-  left: 0;
   clip: rect(1px, 1px, 1px, 1px) !important;
   clip-path: inset(50%) !important;
   width: 1px !important;
@@ -11,10 +9,10 @@ mjx-assistive-mml {
   white-space: nowrap !important;
 }
 
-/* Inline math: align with surrounding text */
+/* Scale inline math up to match CJK character height */
 mjx-container[jax="SVG"]:not([display="true"]) {
   display: inline-block;
-  vertical-align: -0.1ex;
+  font-size: 1.15em;
   margin: 0 0.05em;
 }
 
@@ -22,5 +20,6 @@ mjx-container[jax="SVG"]:not([display="true"]) {
 mjx-container[jax="SVG"][display="true"] {
   display: block;
   text-align: center;
-  margin: 1em 0;
+  margin: 1.2em 0;
+  font-size: 1.15em;
 }
