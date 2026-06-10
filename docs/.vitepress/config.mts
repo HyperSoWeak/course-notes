@@ -7,6 +7,13 @@ export default defineConfig({
   base: '/course-notes/',
   cleanUrls: true,
   markdown: { math: true },
+  vue: {
+    template: {
+      compilerOptions: {
+        isCustomElement: (tag) => tag.startsWith('mjx-')
+      }
+    }
+  },
   locales: {
     root: {
       label: '繁體中文',
