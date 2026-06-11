@@ -62,6 +62,20 @@ export default defineConfig({
                 { text: '置換', link: '/114-2/DiscreteMath/final/05_permutations' },
                 { text: '軌道 & Burnside', link: '/114-2/DiscreteMath/final/06_orbits_burnside' }
               ]
+            },
+            {
+              text: '海洋科學概論',
+              collapsed: false,
+              items: [
+                { text: '課程首頁', link: '/114-2/Ocean/' },
+                { text: '總覽 & 速查', link: '/114-2/Ocean/final/00_overview' },
+                { text: '化學 I：海水成份與物質來源', link: '/114-2/Ocean/final/01_chemistry1' },
+                { text: '化學 II：生地化循環與污染', link: '/114-2/Ocean/final/02_chemistry2' },
+                { text: '生物多樣性', link: '/114-2/Ocean/final/03_biodiversity' },
+                { text: '海洋環境', link: '/114-2/Ocean/final/04_environment' },
+                { text: '海洋生態系', link: '/114-2/Ocean/final/05_ecosystems' },
+                { text: '考古題（化學＋生物）', link: '/114-2/Ocean/past-exams' }
+              ]
             }
           ],
           '/': [
